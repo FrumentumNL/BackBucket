@@ -1,0 +1,12 @@
+{
+  "command": "echo -n 'Pretend this is a database dump!'",
+  "storage": {
+    "path": "{year}-{month}-{day}_backup.sql",
+    "endpoint": "s3.example.com",
+    "accessKey": "your-access-key",
+    "secretKey": "your-secret-key",
+    "bucket": "your-bucket-name",
+    "metadata": {
+    }
+  }
+}

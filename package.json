@@ -1,0 +1,17 @@
+{
+  "name": "BackBucket",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "LGPLv3",
+  "packageManager": "pnpm@10.6.2",
+  "type": "module",
+  "dependencies": {
+    "minio": "^8.0.6"
+  }
+}
